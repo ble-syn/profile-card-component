@@ -12,20 +12,17 @@ hr {
 }
 
 .container-fluid {
-    padding: 7% 0 0;
-    position: relative;
+    padding-top: 7%;
 }
 #top-img {
-    position: absolute;
-    width:  100vh;
-    right: 50%;
+    position: fixed;
+    right: 48%;
     bottom: 40%;
     z-index: -1;
 }
 
 #btm-img {
-    position: absolute;
-    width:  100vh;
+    position: fixed;
     left: 50%;
     top: 50%;
     z-index: -1;
